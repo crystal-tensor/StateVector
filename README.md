@@ -12,7 +12,7 @@ StateVector is a highly efficient vector database leveraging classical and quant
 ## Installation
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/StateVector.git
+    git clone https://github.com/crystal-tensor/StateVector.git
     cd StateVector
     ```
 2. Install the required dependencies:
