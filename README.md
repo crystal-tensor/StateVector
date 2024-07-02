@@ -93,6 +93,10 @@ StateVector 是一个高效的向量数据库，利用经典和量子算法优�
     ```sh
     pip install -r requirements.txt
     ```
+3、安装向量数据库
+```bash
+pip install statevector
+```
 
 ## 使用方法
 ### 文本向量化
