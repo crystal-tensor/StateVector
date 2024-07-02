@@ -86,7 +86,7 @@ StateVector 是一个高效的向量数据库，利用经典和量子算法优�
 ## 安装
 1. 克隆仓库：
     ```sh
-    git clone https://github.com/yourusername/StateVector.git
+    git clone https://github.com/crystal-tensor/StateVector.git
     cd StateVector
     ```
 2. 安装所需依赖：
