@@ -19,7 +19,15 @@ StateVector is a highly efficient vector database leveraging classical and quant
     ```sh
     pip install -r requirements.txt
     ```
+3. You can install StateVector directly from GitHub:
 
+```bash
+pip install git+https://github.com/crystal-tensor/StateVector.git
+```
+or 
+```bash
+pip install statevector
+```
 ## Usage
 ### Text Vectorization
 ```python
@@ -131,16 +139,5 @@ results = search.search(vector, k=5)
 
 
 
-## Installation
 
-You can install StateVector directly from GitHub:
 
-```bash
-pip install git+https://github.com/crystal-tensor/StateVector.git
-```
-
-Alternatively, if you have published this package on PyPI, you can install it via:
-
-```bash
-pip install statevector
-```
