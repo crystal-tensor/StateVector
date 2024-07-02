@@ -1,3 +1,16 @@
+Metadata-Version: 2.1
+Name: StateVector
+Version: 0.1
+Summary: A vector database optimized for cosine similarity using quantum algorithms
+Home-page: https://github.com/crystal-tensor/StateVector
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
 
 # StateVector
 
@@ -130,17 +143,3 @@ results = search.search(vector, k=5)
 详见 `docs` 目录下各模块的详细文档。
 
 
-
-## Installation
-
-You can install StateVector directly from GitHub:
-
-```bash
-pip install git+https://github.com/crystal-tensor/StateVector.git
-```
-
-Alternatively, if you have published this package on PyPI, you can install it via:
-
-```bash
-pip install statevector
-```
