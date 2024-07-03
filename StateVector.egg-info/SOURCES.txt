@@ -14,6 +14,8 @@ search/nearest_neighbor.py
 similarity/__init__.py
 similarity/cosine_similarity.py
 similarity/quantum_cosine_similarity.py
+statevector/__init__.py
+statevector/statevector.py
 tests/__init__.py
 vector_representation/__init__.py
 vector_representation/audio_vectorizer.py

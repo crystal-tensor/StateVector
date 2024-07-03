@@ -1,5 +1,6 @@
 index
 search
 similarity
+statevector
 tests
 vector_representation
