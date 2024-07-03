@@ -143,3 +143,17 @@ results = search.search(vector, k=5)
 详见 `docs` 目录下各模块的详细文档。
 
 
+
+## Installation
+
+You can install StateVector directly from GitHub:
+
+```bash
+pip install git+https://github.com/crystal-tensor/StateVector.git
+```
+
+Alternatively, if you have published this package on PyPI, you can install it via:
+
+```bash
+pip install statevector
+```
