@@ -19,6 +19,7 @@ import re
 from numbers import Number
 
 import numpy as np
+import pandas as pd
 
 from qiskit.circuit.quantumcircuit import QuantumCircuit
 from qiskit.circuit.instruction import Instruction
@@ -959,3 +960,33 @@ class Statevector(QuantumState, TolerancesMixin):
                 new_qargs = [qargs[qubits[tup]] for tup in instruction.qubits]
             Statevector._evolve_instruction(statevec, instruction.operation, qargs=new_qargs)
         return statevec
+
+
+
+class StateVectorDB:
+    """Simple class to store and retrieve state vectors."""
+    def __init__(self):
+        self.vectors = {}
+
+    def add(self, vector, ids):
+        for i, id in enumerate(ids):
+            self.vectors[id] = vector[i]
+
+    def get(self, id):
+        return self.vectors.get(id, None)
+        
+    def print_all_vectors(self):
+        """Print all stored vectors."""
+        for id, vector in self.vectors.items():
+            print(f"ID: {id}, Vector: {vector}")
+            
+    def to_dataframe(self):
+        """Convert the database to a Pandas DataFrame."""
+        data = {"ID": [], "Vector": []}
+        for id, vector in self.vectors.items():
+            data["ID"].append(id)
+            data["Vector"].append(vector)
+        df = pd.DataFrame(data)
+        return df
+
+# Your existing Statevector class implementation goes here...

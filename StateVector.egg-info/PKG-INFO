@@ -1,9 +1,9 @@
 Metadata-Version: 2.1
-Name: StateVector
-Version: 0.1
+Name: statevector
+Version: 0.2
 Summary: A vector database optimized for cosine similarity using quantum algorithms
 Home-page: https://github.com/crystal-tensor/StateVector
-Author: Your Name
+Author: crystal-tensor
 Author-email: your.email@example.com
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License

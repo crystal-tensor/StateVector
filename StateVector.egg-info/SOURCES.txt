@@ -2,11 +2,6 @@ MANIFEST.in
 README.md
 requirements.txt
 setup.py
-StateVector.egg-info/PKG-INFO
-StateVector.egg-info/SOURCES.txt
-StateVector.egg-info/dependency_links.txt
-StateVector.egg-info/requires.txt
-StateVector.egg-info/top_level.txt
 index/__init__.py
 index/kd_tree.py
 search/__init__.py
@@ -16,6 +11,11 @@ similarity/cosine_similarity.py
 similarity/quantum_cosine_similarity.py
 statevector/__init__.py
 statevector/statevector.py
+statevector.egg-info/PKG-INFO
+statevector.egg-info/SOURCES.txt
+statevector.egg-info/dependency_links.txt
+statevector.egg-info/requires.txt
+statevector.egg-info/top_level.txt
 tests/__init__.py
 vector_representation/__init__.py
 vector_representation/audio_vectorizer.py
