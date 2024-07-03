@@ -1,20 +1,18 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='StateVector',
+    name='statevector',
     version='0.1',
     packages=find_packages(),
     install_requires=[
         'numpy',
         'scipy',
-        # Add other dependencies as needed
+        'scikit-learn',
     ],
     entry_points={
-        'console_scripts': [
-            # Define any command-line scripts here
-        ],
+        'console_scripts': [],
     },
-    author='Your Name',
+    author='crystal-tensor',
     author_email='your.email@example.com',
     description='A vector database optimized for cosine similarity using quantum algorithms',
     long_description=open('README.md').read(),
