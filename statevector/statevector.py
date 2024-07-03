@@ -964,7 +964,6 @@ class Statevector(QuantumState, TolerancesMixin):
 
 class StateVectorDB:
     """Simple class to store and retrieve state vectors."""
-
     def __init__(self):
         self.vectors = {}
 
@@ -974,5 +973,19 @@ class StateVectorDB:
 
     def get(self, id):
         return self.vectors.get(id, None)
+        
+    def print_all_vectors(self):
+        """Print all stored vectors."""
+        for id, vector in self.vectors.items():
+            print(f"ID: {id}, Vector: {vector}")
+            
+    def to_dataframe(self):
+        """Convert the database to a Pandas DataFrame."""
+        data = {"ID": [], "Vector": []}
+        for id, vector in self.vectors.items():
+            data["ID"].append(id)
+            data["Vector"].append(vector)
+        df = pd.DataFrame(data)
+        return df
 
 # Your existing Statevector class implementation goes here...
