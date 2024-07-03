@@ -19,6 +19,7 @@ import re
 from numbers import Number
 
 import numpy as np
+import pandas as pd
 
 from qiskit.circuit.quantumcircuit import QuantumCircuit
 from qiskit.circuit.instruction import Instruction
