@@ -4,9 +4,9 @@
 StateVector is a highly efficient vector database leveraging classical and quantum algorithms to optimize cosine similarity calculations. It supports various data types such as text, images, and audio, providing fast and accurate similarity searches.
 
 ## Features
-- **Vector Representation**: Converts text, images, and audio into vector representations using algorithms like Word2Vec.
+- **Vector Representation**: Converts text, images, and audio into vector representations using algorithms like Word2Vec.OpenCV，Librosa
 - **Similarity Calculation**: Computes cosine similarity using both classical and quantum-optimized algorithms.
-- **Indexing**: Builds efficient indexes using KD Trees for quick retrieval of similar vectors.
+- **Indexing**: Builds efficient indexes using HyperLogKD Trees for quick retrieval of similar vectors.
 - **Search**: Performs nearest neighbor search for similarity queries.
 
 ## Installation
