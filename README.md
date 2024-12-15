@@ -1,5 +1,5 @@
 
-# StateVector
+# StateVectorDB
 
 StateVector is a highly efficient vector database leveraging classical and quantum algorithms to optimize cosine similarity calculations. It supports various data types such as text, images, and audio, providing fast and accurate similarity searches.
 
@@ -73,7 +73,7 @@ See the `docs` directory for detailed documentation on each module.
 
 ---
 
-# StateVector
+# StateVectorDB
 
 StateVector 是一个高效的向量数据库，利用经典和量子算法优化余弦相似性计算。它支持文本、图像和音频等多种数据类型，提供快速准确的相似性搜索。
 
